@@ -8,7 +8,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="body">
+  <header class="header">
+    <h1 class="herder-title">ライブ・握手会の感想</h1>
+    <p class="p">ログイン</p>
+    <p class="p">新規登録</p>
+  </header>
     <%= yield %>
+    <footer class="footer">
+    </footer>
   </body>
 </html>

@@ -22,3 +22,36 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## usersテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|user_id|string|nil:false|
+|emall_id|string|nil:false|
+|nickname_id|string|nil:false|
+
+## アソシエーション
+has_many posts
+## postsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|text|text||
+|image|imge||
+|user_id|integer|null: false, foreign_key: true|
+
+#### アソシエーション
+belongs_to user
+## commentテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|text|text|null: false|
+|user_id|integer|null: false, foreign_key: true|
+|tweet_id|integer|null: false, foreign_key: true|
+
+## ## アソシエーション
+
+- belongs_to :tweet
+- belongs_to :user
