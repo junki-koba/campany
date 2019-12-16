@@ -1,0 +1,55 @@
+ body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+header{
+  text-align: center;
+  position:fixed;
+ z-index: 1;
+ 
+}
+ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.list{
+  background-color: yellow;
+  font-size: 20px;
+  width: 33%;
+  height: 60px;
+  text-align: center;
+  border: 1px solid；
+}
+.list--black{
+  background-color: black;
+  color: yellow;
+  width: 34%;
+}
+clearfix::after{
+ content:"";
+  clear: both;
+  display: block;
+}
+.contents{
+  background-color:gray;
+  width: 960PX;
+  height: 800PX;
+  text-align: center;
+}
+.left-content{
+  background-color: red;
+  width: 300PX;
+  height: 300PX;
+}
+.blue-content{
+  width: 200PX;
+  height: 200PX;
+  vertical-align: middle;
+}
+.right-conten{
+  background-color: green;
+  height: 500PX;
+  width: 200PX;
+}
