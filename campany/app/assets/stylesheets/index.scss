@@ -1,0 +1,15 @@
+.tag{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  text-align: right;
+  .search_box{
+    
+    width: 30%;
+    height: 80px;
+    border:solid 1px;
+  }
+}
+.search{
+  text-align: right;
+}

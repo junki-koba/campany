@@ -1,0 +1,27 @@
+.category{
+  display: flex;
+  .category_box{
+    text-align: center;
+    border: solid 1px;
+    width: 40%;
+    height: 100px;
+  }
+  .category_title{}
+}
+.new_title{
+  display: flex;
+
+  .new_title_box{
+    border: solid 1px;
+    width: 40%;
+    height: 100px;
+  }
+}
+.content{
+  display: flex;
+  .content_box{
+    border: solid 1px;
+    width: 40%;
+    height: 300px;
+  }
+}
